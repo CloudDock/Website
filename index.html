@@ -1,1 +1,42 @@
-<h1>CloudDock</h1>
+<!doctype html>
+<html lang="cs">
+	<head>
+		<meta charset="utf-8">
+		<meta name="robots" content="index, follow">
+		<meta name="generator" content="Github Pages">
+		<meta name="viewport" content="width=device-width">
+		<meta name="description" content="Vytváříme moderní cloudové řešení pro správu správu dat.">
+
+		<title>CloudDock - Understand and look deep into data</title>
+
+		<link rel="stylesheet" href="styles/styles.css">
+
+		<link rel="shortcut icon" type="image/ico" href="favicon.ico">
+
+		<meta property="og:url" content="https://clouddock.cz">
+		<meta property="og:title" content="CloudDock - Understand and look deep into data">
+		<meta property="og:description" content="Vytváříme moderní cloudové řešení pro správu správu dat.">
+	</head>
+	<body>
+		<div class="centered">
+			<h1>CloudDock</h1>
+			<p>Understand and look deep into data.</p>
+
+			<!-- TODO: Add link to GitHub -->
+		</div>	
+	</body>
+
+	<script type="text/javascript">
+		window.addEventListener("load", responsiveBackground);
+
+		// Fetch background from Picsum
+		function responsiveBackground(event) {
+			var backgroundImageUrl = "https://i.picsum.photos/id/916/%width/%height.jpg?blur=3"
+				.replace("%width", window.innerWidth)
+				.replace("%height", window.innerHeight)
+
+			// Update DOM element
+			document.body.style.backgroundImage = "url('" + backgroundImageUrl + "')";
+		}
+	</script>
+</html>
