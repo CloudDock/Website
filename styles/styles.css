@@ -2,24 +2,54 @@
 
 body {
 	background: no-repeat center center fixed;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif !important;
 	background-size: cover;
-	color: white;
 }
 
 h1 {
-	font-size: 6em;
-	font-weight: 800;
-	margin: 0;
+	font-size: 6em !important;
+	font-weight: 800 !important;
 }
 
 p {
-	font-size: 2em;
-	font-weight: 300;
-	margin: 0;
+	font-size: 2em !important;
+	font-weight: 300 !important;
 }
 
 .centered {
 	text-align: center;
-	margin-top: 18rem;
+	margin-top: 13rem;
 }
+
+.links .link {
+	text-decoration: none;
+	display: inline-block;
+	margin: 1rem 0.5rem;
+}
+
+@media only screen and (max-width: 550px) {
+	h1 {
+		font-size: 5em !important;
+	}
+
+	p {
+		font-size: 1.5em !important;
+	}
+}
+
+@media only screen and (max-width: 420px) {
+	h1 {
+		font-size: 4em !important;
+	}
+
+	p {
+		font-size: 1em !important;
+	}
+}
+
+/**
+ * Products section
+ */
+section.products {
+	margin-top: 5rem;
+} 
