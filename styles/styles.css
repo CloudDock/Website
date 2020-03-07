@@ -51,5 +51,11 @@ p {
  * Products section
  */
 section.products {
-	margin-top: 5rem;
-} 
+	margin: 5rem 0;
+}
+
+section.products img {
+	max-width: 70%;
+	display: block;
+	margin: 2rem auto;
+}
